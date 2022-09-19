@@ -1,0 +1,8 @@
+---
+- name: Test something
+  hosts: all
+  become: no
+  gather_facts: no
+
+  roles:
+    - robertdebock.dryrun
